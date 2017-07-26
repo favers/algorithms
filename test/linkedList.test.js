@@ -35,4 +35,14 @@ describe('linkedList', function () {
         l.clear();
         expect(l.head).to.null;
     })
+    const b = new LinkedList();
+    it('append head null', function () {
+        expect(b.append('append').length).to.equal(1);
+    })
+    it('remove head', function () {
+        expect(b.remove('append')).to.equal(true);
+    })
+    it('insert head', function () {
+        expect(b.insert('append', 0)).to.equal(true);
+    })
 });

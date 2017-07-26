@@ -12,4 +12,4 @@
 |序号|题目|代码|解析|难度|
 |:------:|------|:------:|:------:|:------:|
 |001|[Two Sum](https://leetcode.com/problems/two-sum/#/description)|[code](./src/001-TwoSum.js)|[解析](https://github.com/favers/algorithms/issues/1)|★|
-|002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/#/description)|[code](./src/001-AddTwoNumbers.js)|[解析](https://github.com/favers/algorithms/issues/2)|★★|
+|002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/#/description)|[code](./src/002-AddTwoNumbers.js)|[解析](https://github.com/favers/algorithms/issues/2)|★★|
