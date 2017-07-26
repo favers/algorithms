@@ -1,0 +1,37 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "一个非科班野路子程序员的算法学习之旅。",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:cover": "istanbul cover _mocha",
+    "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "report-coverage": "cat ./coverage/lcov.info | codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/favers/algorithms.git"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run test:cover && npm run check-coverage"
+    }
+  },
+  "author": "favers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/favers/algorithms/issues"
+  },
+  "homepage": "https://github.com/favers/algorithms#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "codecov.io": "^0.1.6",
+    "ghooks": "^2.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2"
+  }
+}
